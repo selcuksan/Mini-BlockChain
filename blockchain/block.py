@@ -1,7 +1,6 @@
 import datetime
 from hashlib import sha256
 
-#changed data to transactions
 
 class Block:
     def __init__(self, transactions, previous_hash):
